@@ -92,3 +92,7 @@ a:hover.fb-msg-btn {
     background-color: #0084ff;
     border: 1px solid #fff;
 }
+
+html {
+  scroll-behavior: smooth;
+}
