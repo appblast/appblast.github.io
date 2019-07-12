@@ -69,3 +69,26 @@ section.pricing {
     display: none;
     color: red;
 }
+
+a.fb-msg-btn{
+    display: inline-block;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding: 12px 16px;
+    margin: 0;
+    background-color: #0084ff;
+    border: 10px;
+    border-color: #0084ff;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px;
+}
+a:hover.fb-msg-btn { 
+    background-color: #fff; 
+    color: #0084ff;
+}
