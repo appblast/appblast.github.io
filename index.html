@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AppBlast – Blast your Admission Essays to Multiple Colleges in One Click!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      
+    <link rel="icon" href="images/favicon.ico" type="image/png">
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+      
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/custom.css">
+      <link rel="stylesheet" href="css/custombutt.css">
+      
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/46421073c0.js"></script>
+      
+    <!-- ANALYTICS START -->  
+    <!-- Hotjar Tracking Code for https://edtech-startups.github.io/admissions/ -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:1395555,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+      
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142309756-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-142309756-3');
+    </script>
+
+    <script type="text/javascript">
+      (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script")
+      ;r.type="text/javascript"
+      ;r.integrity="sha384-d/yhnowERvm+7eCU79T/bYjOiMmq4F11ElWYLmt0ktvYEVgqLDazh4+gW9CKMpYW"
+      ;r.crossOrigin="anonymous";r.async=true
+      ;r.src="https://cdn.amplitude.com/libs/amplitude-5.2.2-min.gz.js"
+      ;r.onload=function(){if(!e.amplitude.runQueuedFunctions){
+      console.log("[Amplitude] Error: could not load SDK")}}
+      ;var i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)
+      ;function s(e,t){e.prototype[t]=function(){
+      this._q.push([t].concat(Array.prototype.slice.call(arguments,0)));return this}}
+      var o=function(){this._q=[];return this}
+      ;var a=["add","append","clearAll","prepend","set","setOnce","unset"]
+      ;for(var u=0;u<a.length;u++){s(o,a[u])}n.Identify=o;var c=function(){this._q=[]
+      ;return this}
+      ;var l=["setProductId","setQuantity","setPrice","setRevenueType","setEventProperties"]
+      ;for(var p=0;p<l.length;p++){s(c,l[p])}n.Revenue=c
+      ;var d=["init","logEvent","logRevenue","setUserId","setUserProperties","setOptOut","setVersionName","setDomain","setDeviceId","setGlobalUserProperties","identify","clearUserProperties","setGroup","logRevenueV2","regenerateDeviceId","groupIdentify","onInit","logEventWithTimestamp","logEventWithGroups","setSessionId","resetSessionId"]
+      ;function v(e){function t(t){e[t]=function(){
+      e._q.push([t].concat(Array.prototype.slice.call(arguments,0)))}}
+      for(var n=0;n<d.length;n++){t(d[n])}}v(n);n.getInstance=function(e){
+      e=(!e||e.length===0?"$default_instance":e).toLowerCase()
+      ;if(!n._iq.hasOwnProperty(e)){n._iq[e]={_q:[]};v(n._iq[e])}return n._iq[e]}
+      ;e.amplitude=n})(window,document);
+
+      amplitude.getInstance().init("64eb9fa408120cf3544a7b9bccba6e01");
+    </script>
+      
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '467057150731163');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=467057150731163&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+    <!-- ANALYTICS END -->  
+    
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  
+  <div class="site-wrap"  id="home-section">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+   
+    <div class="container d-none d-lg-block">
+      <div class="row">
+        <div class="col-12 text-center mb-4 mt-5">
+            <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">⚡ AppBlast<span class="text-primary">.</span> </a></h1>
+          </div>
+      </div>
+    </div>
+    <header class="site-navbar py-md-4 js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <div class="col-6 col-md-6 col-xl-2  d-block d-lg-none">
+            <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">⚡ AppBlast<span class="text-primary">.</span> </a></h1>
+          </div>
+
+          <div class="col-12 col-md-10 main-menu">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li><a href="#home-section" class="nav-link">Home</a></li>
+                <li><a href="#about-section" class="nav-link">About Us</a></li>
+                <li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#features-section" class="nav-link">Features</a></li>
+                <li><a href="#contact-section" class="nav-link">Contact</a></li>
+
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="col-6 col-md-6 d-inline-block d-lg-none ml-md-0" ><a href="#" class="site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a></div>
+
+        </div>
+      </div>
+      
+    </header>
+    
+
+    <div class="site-blocks-cover">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+
+          <div class="col-md-12" style="position: relative;" data-aos="fade-up">
+            
+            <img src="images/landing_1.png" alt="Image" class="img-fluid img-absolute">
+
+            <div class="row mb-4">
+              <div class="col-lg-4 mr-auto">
+                <h1>Get Them Applications 📄 Rolling</h1>
+                <p class="mb-5">Kick back and let us do the annoying job of searching and applying to colleges near and far</p>
+                <div>
+                    <a href="#features-section"><button onClick="amplitude.getInstance().logEvent('get-started');">Get Started</button></a>
+                </div>
+              </div>
+              
+              
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>  
+
+
+    
+    <div class="feature-big">
+      <div class="container">
+        <div class="row mb-5 site-section border-bottom">
+          <div class="col-lg-7 mt-md-5">
+            <img src="images/1-select.png" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 pl-lg-5 ml-auto mt-md-5">
+            <h2 class="text-black">1: Select colleges 🏛️</h2>
+            <ul class="ul-check mb-5 list-unstyled success">
+              <li>Pick your favorites from any of 5873 U.S. colleges</li>
+              <li>Or ask us to find ones that fit you best</li>
+              <li>We’ll help you craft tailored admission essays for each college</li>
+            </ul>
+                <div>
+                    <a href="#pricing"><button onClick="amplitude.getInstance().logEvent('get-started');">Pick 'em! 👍</button></a>
+                </div>
+          </div>
+        </div>
+
+        <div class="mt-5 row mb-5 site-section">
+          <div class="col-lg-7 order-1 order-lg-2 mt-md-5">
+           <img src="images/2-blast.png" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 pr-lg-5 mr-auto mt-5 order-2 order-lg-1">
+            <h2 class="text-black">2: Blast applications ✉️</h2>
+            <ul class="ul-check mb-5 list-unstyled success">
+              <li>Save hours if not days by sending all your college application at a click of a button</li>
+              <li>No time is spent figuring out requirements and filling endless forms</li>
+              <li>We're taking out stress out of the equation</li>             
+            </ul>
+                <div>
+                    <a href="#pricing"><button onClick="amplitude.getInstance().logEvent('get-started');">Blast 'em! 🚀</button></a>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    <div class="feature-big">
+      <div class="container">
+        <div class="row mb-5 site-section border-bottom">
+          <div class="col-lg-7">
+            <img src="images/3-getaccepted.png" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 pl-lg-5 ml-auto mt-md-5">
+            <h2 class="text-black">3: Get admitted 🏫</h2>
+            <ul class="ul-check mb-5 list-unstyled success">
+              <li>College responses will automatically be forwarded to you and we’ll also notify you by SMS</li>
+              <li>In case you sent 10+ admission letters, you can get invites from multiple colleges, leaving you room for choice</li>
+              <li>Note: We’re not affiliated with any colleges or admission officers so we can not guarantee your admission</li>
+            </ul>
+                <div>
+                    <a href="#pricing"><button onClick="amplitude.getInstance().logEvent('get-started');">Get 'em! 🎓</button></a>
+                </div>
+          </div>
+        </div>
+
+
+    <div class="site-section bg-light" id="about-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Our mission...</h2>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-lg-6">
+            <img src="images/about_1.jpg" alt="Image" class="img-fluid mb-5 mb-lg-0 rounded shadow">
+          </div>
+          <div class="col-lg-5 ml-auto pl-lg-5">
+            <h2 class="text-black mb-4">...is to turn around admission.</h2>
+            <p class="mb-4">All of us went through the college admission process and for none it was either easy or enjoyable, so we figured there's something we can change. With the power of machine learning and automation, we built a system that allows you to find colleges that match you best and send admissions with a click of a button. With that, we hope to turn admission process from a nightmare to a walk in the park.</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+
+    <div class="site-section testimonial-wrap" id="testimonials-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Testimonials</h2>
+          </div>
+        </div>
+      </div>
+      <div class="slide-one-item home-slider owl-carousel">
+          <div>
+            <div class="testimonial">
+              <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="images/person_3.jpg" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+              </figure>
+              <blockquote class="mb-3">
+                <p>&ldquo;This is freakin amazing. I got into a uni without lifting a finger. Or breaking any laws, which is important nowadays.&rdquo;</p>
+              </blockquote>
+              <p class="text-black"><strong>Craig Riggs</strong></p>
+
+              
+            </div>
+          </div>
+          <div>
+            <div class="testimonial">
+              
+              <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="images/person_2.jpg" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+              </figure>
+
+              <blockquote class="mb-3">
+                <p>&ldquo;Service's legit. I totally recommend it to anyone who is planning to apply to US colleges.&rdquo;</p>
+              </blockquote>
+              
+              <p class="text-black"><strong>Robert Aguilar</strong></p>
+              
+              
+            </div>
+          </div>
+
+          <div>
+            <div class="testimonial">
+              <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="images/person_4.jpg" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+              </figure>
+              <blockquote class="mb-3">
+                <p>&ldquo;It's not cheap, but it does the job. More applications = more chances. And I really wanted to choose out of many options so it worked for me.&rdquo;</p>
+              </blockquote>
+              <p class="text-black"><strong>Roger Spears</strong></p>
+
+              
+            </div>
+           
+          </div>
+
+          <div>
+            <div class="testimonial">
+              <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="images/person_1.jpg" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+              </figure>
+              <blockquote class="mb-3">
+                <p>&ldquo;I bought it for my son Henry cause he's quite a lazy one. You guys have made a great job finding the right place for him. Thank you!&rdquo;</p>
+              </blockquote>
+              <p class="text-black"><strong>Cheryl McDonald</strong></p>
+
+              
+            </div>
+
+          </div>
+
+        </div>
+    </div>
+
+    
+
+<section class="pricing py-5" id="pricing">
+    <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Pricing</h2>
+          </div>
+        </div>
+      </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Starter</h5>
+            <h6 class="card-price text-center">$99</h6>
+            <hr>
+            <ul class="fa-ul">
+                <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>1 Application</strong></li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>College Matching</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Essay Editing</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Essay Tailoring</li>
+            </ul>
+            <a href="payment-99/" onClick="amplitude.getInstance().logEvent('payment-99');" class="btn btn-block btn-primary text-uppercase">Get Started</a>
+          </div>
+        </div>
+      </div>
+      <!-- Plus Tier -->
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Plus</h5>
+            <h6 class="card-price text-center">$499</h6>
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>5 Applications</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>College Matching</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Essay Editing</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Essay Tailoring</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Status Reports</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Revisions</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>24/7 support</li>
+            </ul>
+            <a href="payment-499/" onClick="amplitude.getInstance().logEvent('payment-499');" class="btn btn-block btn-primary text-uppercase">Get Started</a>
+          </div>
+        </div>
+      </div>
+      <!-- Pro Tier -->
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Pro</h5>
+            <h6 class="card-price text-center">$999</h6>
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>10 Applications</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>College Matching</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Essay Editing</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Essay Tailoring</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Status Reports</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Revisions</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>24/7 support</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Admission Interview Preparation</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Personal Manager</li>
+            </ul>
+            <a href="payment-999/" onClick="amplitude.getInstance().logEvent('payment-999');" class="btn btn-block btn-primary text-uppercase">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  
+    <!--================ About us =================-->
+	<div class="popular_courses lite_bg py-5">
+		<div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Our journey so far</h2>
+						<p>Founded by Brian Molino, an admission expert, and Monica Twiggs, a seasoned machine learning engineer, we helped students from across the world to enroll in U.S. colleges without the risk of their lives ruined by loans they would not repay.</p>
+          </div>
+        </div>
+      </div>
+        <div class="container">
+			<div class="row mb-5">
+				<!-- single course -->
+				<div class="col-lg-3 col-md-6">
+					<div class="single_course">
+                        <div style="font-size: 50px; color: dimgray" class="text-center">
+                        2017
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            Year founded
+                        </div>
+					</div>
+				</div>
+                <div class="col-lg-3 col-md-6">
+					<div class="single_course">
+                        <div style="font-size: 50px; color: dimgray" class="text-center">
+                        18
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            Full time employees
+                        </div>
+					</div>
+				</div>
+                <div class="col-lg-3 col-md-6">
+					<div class="single_course">
+                        <div style="font-size: 50px; color: dimgray" class="text-center">
+                        15,000+
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            Happy customers
+                        </div>
+					</div>
+				</div>
+                <div class="col-lg-3 col-md-6">
+					<div class="single_course">
+                        <div style="font-size: 50px; color: dimgray" class="text-center">
+                        5,873
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            Colleges in the database
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+    <!--================ End Popular Courses Area =================-->    
+    <!--      
+          
+    <div class="site-section bg-light" id="features-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">We’re on a mission. To nail admission</h2>
+          </div>
+        </div>
+        <div class="row align-items-stretch">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+            
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-autorenew"></span></span>
+              </div>
+              <div>
+                <h3>College match</h3>
+                <p>Can't figure out the best college for you? No problem. Our experts will happily suggest the ones that you'll like most!</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-store_mall_directory"></span></span>
+              </div>
+              <div>
+                <h3>Application essays</h3>
+                <p>Get your admission essay drafts written or edited by professional writers, responsible for thousands of successful applications!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" >
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-shopping_basket"></span></span>
+              </div>
+              <div>
+                <h3>One-click applications</h3>
+                <p>Applications require an enormous amount of manual work! We make sure your applications are out within seconds, not days!</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-settings_backup_restore"></span></span>
+              </div>
+              <div>
+                <h3>Interview preparation</h3>
+                <p>Ever wished to talk to an admission officer before the actual interview? Wish granted! Experienced admission officers are waiting for your call!</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-sentiment_satisfied"></span></span>
+              </div>
+              <div>
+                <h3>Scholarship applications</h3>
+                <p>Tuition funding was never easy or fast, so we've joined forces with Scholarship Genie to fix that as well.</p>
+              </div>
+            </div>
+
+            
+          </div>
+          
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-power"></span></span>
+              </div>
+              <div>
+                <h3>And more!</h3>
+                <p>Need something else that's not on the list? Check out College Concierge, an amazing personal assistant service made for students!</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    -->
+          
+<!--     ебучий аккордеон
+
+
+ <div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Collapsible Group Item #1
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Collapsible Group Item #2
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+              
+<div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Collapsible Group Item #3
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+</div>
+        -->  
+      
+    <div class="site-section bg-light" id="contact-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Get In Touch</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-7 mb-5 text-center">
+
+            <a href="https://m.me/yourcollegeassistant" onClick="amplitude.getInstance().logEvent('payment-99');" target="_blank">
+              <img src="images/messenger%20button.png">
+              </a>
+              <!--
+            <form action="https://formspree.io/igorgovitall@gmail.com" method="POST" class="p-5 bg-white">
+              
+              <h2 class="h4 text-black mb-5">Contact Form</h2> 
+
+              <div class="row form-group">
+                <div class="col-md-6 mb-3 mb-md-0">
+                  <label class="text-black" for="fname">Name</label>
+                  <input name="name" type="text" id="fname" class="form-control rounded-0">
+                </div>
+              </div>
+
+              <div class="row form-group">
+                
+                <div class="col-md-12">
+                  <label class="text-black" for="email">Email</label> 
+                  <input name="email" type="email" id="email" class="form-control rounded-0">
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <label class="text-black" for="message">Message</label> 
+                  <textarea name="message" id="message" cols="30" rows="7" class="form-control rounded-0" placeholder="Write your notes or questions here..."></textarea>
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <input type="submit" value="Send Message" class="btn btn-primary mr-2 mb-2">
+                </div>
+              </div>
+
+  
+            </form>
+              -->
+          </div>
+        
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="footer py-5 border-top text-center">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12">
+            <p class="mb-0">
+              <a href="#" class="p-3"><span class="icon-facebook"></span></a>
+                <!--
+              <a href="#" class="p-3"><span class="icon-twitter"></span></a>
+              <a href="#" class="p-3"><span class="icon-instagram"></span></a>
+                -->
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="mb-0">
+              Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Made with <i class="fas fa-hand-paper" aria-hidden="true"></i> by R&amp;D team
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+     
+    
+  </div> <!-- .site-wrap -->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
