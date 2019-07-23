@@ -291,16 +291,18 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
         
   <script src="js/main.js"></script>
-      
+
     <script>
-      const scriptURL = 'https://hooks.zapier.com/hooks/catch/5352559/oo5zpi1/'
-      const form = document.forms['submit-to-google-sheet']
+      const scriptURL = 'https://hooks.zapier.com/hooks/catch/5352559/oo5zpi1/';
+      const scriptURL2 = 'https://hooks.zapier.com/hooks/catch/5352559/oozkxzu/';
+      const form = document.forms['submit-to-google-sheet'];
 
       form.addEventListener('submit', e => {
-        e.preventDefault()
+        e.preventDefault();
+        fetch(scriptURL2, { method: 'POST', body: new FormData(form)});
         fetch(scriptURL, { method: 'POST', body: new FormData(form)})
           .then(response => {console.log('Success!', response); window.location.href = 'https://api.fondy.eu/s/D54IWBksdlJ3LF6';})
-          .catch(error => console.error('Error!', error.message))
+          .catch(error => console.error('Error!', error.message));
       })
     </script>
     

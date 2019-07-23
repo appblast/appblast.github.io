@@ -290,14 +290,16 @@
   <script src="js/main.js"></script>
       
     <script>
-      const scriptURL = 'https://hooks.zapier.com/hooks/catch/5352559/oo5zpi1/'
-      const form = document.forms['submit-to-google-sheet']
+      const scriptURL = 'https://hooks.zapier.com/hooks/catch/5352559/oo5zpi1/';
+      const scriptURL2 = 'https://hooks.zapier.com/hooks/catch/5352559/oozkxzu/';
+      const form = document.forms['submit-to-google-sheet'];
 
       form.addEventListener('submit', e => {
-        e.preventDefault()
+        e.preventDefault();
+        fetch(scriptURL2, { method: 'POST', body: new FormData(form)});
         fetch(scriptURL, { method: 'POST', body: new FormData(form)})
           .then(response => {console.log('Success!', response); window.location.href = 'https://api.fondy.eu/s/293VeLQ';})
-          .catch(error => console.error('Error!', error.message))
+          .catch(error => console.error('Error!', error.message));
       })
     </script>
     
