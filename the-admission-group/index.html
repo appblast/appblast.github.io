@@ -22,6 +22,79 @@
   <link href="css/grayscale.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
 
+    <!-- ANALYTICS START -->  
+    <!-- Hotjar Tracking Code for https://edtech-startups.github.io/admissions/ -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:1395555,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+      
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142309756-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-142309756-3');
+    </script>
+
+    <script type="text/javascript">
+      (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script")
+      ;r.type="text/javascript"
+      ;r.integrity="sha384-d/yhnowERvm+7eCU79T/bYjOiMmq4F11ElWYLmt0ktvYEVgqLDazh4+gW9CKMpYW"
+      ;r.crossOrigin="anonymous";r.async=true
+      ;r.src="https://cdn.amplitude.com/libs/amplitude-5.2.2-min.gz.js"
+      ;r.onload=function(){if(!e.amplitude.runQueuedFunctions){
+      console.log("[Amplitude] Error: could not load SDK")}}
+      ;var i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)
+      ;function s(e,t){e.prototype[t]=function(){
+      this._q.push([t].concat(Array.prototype.slice.call(arguments,0)));return this}}
+      var o=function(){this._q=[];return this}
+      ;var a=["add","append","clearAll","prepend","set","setOnce","unset"]
+      ;for(var u=0;u<a.length;u++){s(o,a[u])}n.Identify=o;var c=function(){this._q=[]
+      ;return this}
+      ;var l=["setProductId","setQuantity","setPrice","setRevenueType","setEventProperties"]
+      ;for(var p=0;p<l.length;p++){s(c,l[p])}n.Revenue=c
+      ;var d=["init","logEvent","logRevenue","setUserId","setUserProperties","setOptOut","setVersionName","setDomain","setDeviceId","setGlobalUserProperties","identify","clearUserProperties","setGroup","logRevenueV2","regenerateDeviceId","groupIdentify","onInit","logEventWithTimestamp","logEventWithGroups","setSessionId","resetSessionId"]
+      ;function v(e){function t(t){e[t]=function(){
+      e._q.push([t].concat(Array.prototype.slice.call(arguments,0)))}}
+      for(var n=0;n<d.length;n++){t(d[n])}}v(n);n.getInstance=function(e){
+      e=(!e||e.length===0?"$default_instance":e).toLowerCase()
+      ;if(!n._iq.hasOwnProperty(e)){n._iq[e]={_q:[]};v(n._iq[e])}return n._iq[e]}
+      ;e.amplitude=n})(window,document);
+
+      amplitude.getInstance().init("64eb9fa408120cf3544a7b9bccba6e01", null, {
+        includeUtm: true,
+        includeReferrer: true,
+        });
+    </script>
+      
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '467057150731163');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=467057150731163&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+    <!-- ANALYTICS END -->  
+    
 </head>
 
 <body id="page-top">
@@ -72,7 +145,8 @@
 As a leading college admissions consulting company, our role is small but important. We aim to help our students gain admission to the best colleges for them individually -- the ones that are ideally suited to their interests, personality, and ambitions.</p>
         </div>
       </div>
-      <img src="img/ivy-league.png" class="img-fluid" alt="">
+
+      <img src="img/ivy-league.png" class="img-fluid imageheht" alt="">
     </div>
   </section>
 
@@ -89,6 +163,10 @@ As a leading college admissions consulting company, our role is small but import
           <div class="featured-text text-center text-lg-left">
             <h4>Goal-driven</h4>
             <p class="text-black-50 mb-0">Our objective when working with students is to help them rise above other applicants. We take each student’s passions and help them create a creative and compelling applicant profile, by providing them with tangible actionable steps to expand and elevate their existing interests.</p>
+              <br>
+              <a class="js-scroll-trigger" href="#signup">
+            <button class="btn btn-primary mx-auto">Get Started</button>
+            </a>
           </div>
         </div>
       </div>
@@ -99,10 +177,14 @@ As a leading college admissions consulting company, our role is small but import
           <div class="featured-text text-center text-lg-left">
             <h4>Reliable</h4>
             <p class="text-black-50 mb-0">We believe every student has unique potential, and we work to help skillfully draw out each student’s strengths. With more than a decade of combined experience in college admissions consulting, Application Daddy views the college application process as an opportunity for immense creativity.</p>
+              <br>
+              <a class="js-scroll-trigger" href="#signup">
+            <button class="btn btn-primary mx-auto">Get Started</button>
+            </a>
           </div>
         </div>
         <div class="col-xl-8 col-lg-7">
-          <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
+          <img class="img-fluid mb-3 mb-lg-0" src="img/unspalah-1.5.jpg" alt="">
         </div>
       </div>
         
@@ -115,6 +197,10 @@ As a leading college admissions consulting company, our role is small but import
           <div class="featured-text text-center text-lg-left">
             <h4>Trustworthy</h4>
             <p class="text-black-50 mb-0">We are a young company in spirit but our expertise is unmatched. Every employee at AD went to an Ivy League or equivalent top-tier institution and we thrive on seeing our students achieve more than they thought possible.</p>
+              <br>
+              <a class="js-scroll-trigger" href="#signup">
+            <button class="btn btn-primary mx-auto">Get Started</button>
+            </a>
           </div>
         </div>
       </div>
@@ -161,23 +247,44 @@ As a leading college admissions consulting company, our role is small but import
   </section>
 
   <!-- Signup Section -->
+    <section id="signup" class="signup-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-lg-8 mx-auto text-center">
+
+          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+          <h2 class="text-white mb-5">Leave nothing to chance.</h2>
+            <p class="text-white mb-5">We guide you through the entire college admissions process, from picking schools to crafting applications to waitlist strategy.</p>
+
+          <a href="form-external.html">
+              <button class="btn btn-primary mx-auto" style="background-color: #bd9334; font-size: 120%">Get Started</button>
+            </a>
+          
+
+        </div>
+      </div>
+    </div>
+  </section>
+<!--
   <section id="signup" class="signup-section">
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-lg-8 mx-auto text-center">
 
           <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-          <h2 class="text-white mb-5">Get started</h2>
+          <h2 class="text-white mb-5">Leave nothing to chance.</h2>
+            <p class="text-white mb-5">We guide you through the entire college admissions process, from picking schools to crafting applications to waitlist strategy.</p>
 
           <form class="form-inline d-flex" action="https://formspree.io/crassius.curio37@icloud.com" method="POST">
             <input name="email" type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
-            <button type="submit" class="btn btn-primary mx-auto">Submit</button>
+            <button type="submit" class="btn btn-primary mx-auto">Get Started</button>
           </form>
 
         </div>
       </div>
     </div>
   </section>
+-->
 
   <!-- Contact Section -->
 <!--
