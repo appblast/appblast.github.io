@@ -602,7 +602,18 @@ At Admission Buddy, we automated and streamlined the process of proofreading and
       
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Aug 12, 2019 15:37:25").getTime();
+var countdownDate;
+var countDownDateStr = localStorage.getItem('admissionBuddyPlusHello8'); // = new Date("Aug 12, 2019 15:37:25").getTime();
+    console.log(countdownDate, countDownDateStr);
+if(countDownDateStr) {
+    countdownDate = new Date(countDownDateStr);
+} else {
+    countdownDate = new Date();
+    countdownDate.setDate(countdownDate.getDate() + 1);
+    countdownDate.setHours(countdownDate.getHours() + 5);
+    countdownDate.setMinutes(countdownDate.getMinutes() + 37);
+    localStorage.setItem('admissionBuddyPlusHello8', countdownDate.toString());
+}
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -611,7 +622,7 @@ var x = setInterval(function() {
   var now = new Date().getTime();
 
   // Find the distance between now and the count down date
-  var distance = countDownDate - now;
+  var distance = countdownDate - now;
 
   // Time calculations for days, hours, minutes and seconds
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
@@ -622,42 +633,15 @@ var x = setInterval(function() {
   // Display the result in the element with id="demo"
   document.getElementById("demo").innerHTML = days + "d \xa0" + hours + "h \xa0"
   + minutes + "m \xa0" + seconds + "s \xa0";
+    document.getElementById("demoes").innerHTML = days + "d \xa0" + hours + "h \xa0"
+  + minutes + "m \xa0" + seconds + "s \xa0";
+    
 
   // If the count down is finished, write some text 
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("demo").innerHTML = "OFFER EXPIRED";
-  }
-}, 1000);
-</script>
-      
-      <script>
-// Set the date we're counting down to
-var countDownDate = new Date("Aug 12, 2019 15:37:25").getTime();
-
-// Update the count down every 1 second
-var x = setInterval(function() {
-
-  // Get today's date and time
-  var now = new Date().getTime();
-
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
-
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-  // Display the result in the element with id="demo"
-  document.getElementById("demoes").innerHTML = days + "d \xa0" + hours + "h \xa0"
-  + minutes + "m \xa0" + seconds + "s \xa0";
-
-  // If the count down is finished, write some text 
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demoes").innerHTML = "EXPIRED";
+    document.getElementById("demoes").innerHTML = "OFFER EXPIRED";
   }
 }, 1000);
 </script>
