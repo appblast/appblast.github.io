@@ -1,0 +1,107 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.big_icon {
+    font-size: xx-large;
+}
+
+.yello-font {
+    color: #f5c33d;
+}
+
+
+
+
+
+.reviews .reviews-carousel .slick-prev:before {
+    content: ""
+}
+
+.reviews .reviews-carousel [dir=rtl] .slick-prev:before {
+    content: ""
+}
+
+.reviews .reviews-carousel .slick-next:before {
+    content: ""
+}
+
+.reviews .reviews-carousel [dir=rtl] .slick-next:before {
+    content: ""
+}
+
+
+@media (min-width:768px) and (min-width:576px) {
+    .how-it-works .row>div:nth-child(2):after,
+    .how-it-works .row>div:nth-child(2):before {
+        -webkit-transform: rotate(0);
+        -o-transform: rotate(0);
+        transform: rotate(0);
+        display: none;
+            
+    }
+}
+
+@media (min-width:768px) and (min-width:768px) {
+    .how-it-works .row>div:nth-child(2):after,
+    .how-it-works .row>div:nth-child(2):before {
+        top: 37.5px;
+        font-size: 1.5rem;
+        display: none;
+    }
+}
+
+@media (min-width:768px) and (min-width:992px) {
+    .how-it-works .row>div:nth-child(2):after,
+    .how-it-works .row>div:nth-child(2):before {
+        top: 50px;
+        font-size: 2.25rem;
+        display: none;
+    }
+}
+
+@media (min-width:768px) and (min-width:1200px) {
+    .how-it-works .row>div:nth-child(2):after,
+    .how-it-works .row>div:nth-child(2):before {
+        top: 75px;
+        font-size: 2.5rem;
+        display: none;
+    }
+}
+
+@media (min-width:768px) {
+    .how-it-works .row>div:nth-child(2):before {
+        margin-left: -20px;
+        display: none;
+    }
+}
+
+@media (min-width:768px) and (min-width:576px) {
+    .how-it-works .row>div:nth-child(2):before {
+        left: -12.5px;
+        margin-left: 0;
+        display: none;
+    }
+}
+
+@media (min-width:768px) {
+    .how-it-works .row>div:nth-child(2):after {
+        margin-left: -20px;
+        display: none;
+    }
+}
+
+@media (min-width:768px) and (min-width:576px) {
+    .how-it-works .row>div:nth-child(2):after {
+        right: -12.5px;
+        margin-left: 0;
+        display: none;
+    }
+}
+
+
+.pricing .package .tab-content>ul li:before {
+    font-family: "Font Awesome 5 Free"!important;
+    content: "\f00c";
+    font-weight: 900;
+}
