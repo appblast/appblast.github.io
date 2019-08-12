@@ -104,4 +104,8 @@ html {
     font-family: "Font Awesome 5 Free"!important;
     content: "\f00c";
     font-weight: 900;
+    display: none;
 }
+
+.pricing .package .tab-content>ul {
+    padding-left: 0px;
