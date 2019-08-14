@@ -24,15 +24,15 @@
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/46421073c0.js"></script>
       
-    <!--new analytics-->
+    <!--new analytics that don't ffin work-->
+<!--
     <script async src="analytics.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142309756-3"></script>
-    
     <style>.async-hide { opacity: 0 !important} </style>
+-->
       
     <!-- ANALYTICS START -->  
     <!-- Quora Pixel Code (JS Helper) -->
-<!--
     <script>
     !function(q,e,v,n,t,s){if(q.qp) return; n=q.qp=function(){n.qp?n.qp.apply(n,arguments):n.queue.push(arguments);}; n.queue=[];t=document.createElement(e);t.async=!0;t.src=v; s=document.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t,s);}(window, 'script', 'https://a.quora.com/qevents.js');
     qp('init', '4158363ddeaa4b0abc8a7a0feab0c656');
@@ -41,12 +41,10 @@
     <noscript><img height="1" width="1" style="display:none" src="https://q.quora.com/_/ad/4158363ddeaa4b0abc8a7a0feab0c656/pixel?tag=ViewContent&noscript=1"/></noscript>
       
     <script>qp('track', 'Generic');</script>
--->
     <!-- End of Quora Pixel Code -->  
       
       
     <!-- Hotjar Tracking Code for https://edtech-startups.github.io/admissions/ -->
-<!--
     <script>
         (function(h,o,t,j,a,r){
             h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
@@ -57,10 +55,8 @@
             a.appendChild(r);
         })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
     </script>
--->
       
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<!--
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142309756-3"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -69,10 +65,8 @@
 
       gtag('config', 'UA-142309756-3', { 'optimize_id': 'GTM-KD2DSM2'});
     </script>
--->
 
     <!-- Anti-flicker snippet (recommended)  -->
-<!--
     <style>.async-hide { opacity: 0 !important} </style>
     <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
     h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
@@ -110,10 +104,8 @@
         includeReferrer: true,
         });
     </script>
--->
       
     <!-- Facebook Pixel Code -->
-<!--
     <script>
       !function(f,b,e,v,n,t,s)
       {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -129,7 +121,6 @@
     <noscript><img height="1" width="1" style="display:none"
       src="https://www.facebook.com/tr?id=467057150731163&ev=PageView&noscript=1"
     /></noscript>
--->
     <!-- End Facebook Pixel Code -->
     <!-- ANALYTICS END -->  
     
@@ -145,14 +136,7 @@
         </div>
       </div>
       <div class="site-mobile-menu-body"></div>
-    </div>
-   
-<!-- bye bye ph
-    <a href="https://www.producthunt.com/posts/admission-buddy?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-admission-buddy" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=163433&theme=light" alt="Admission Buddy - Apply to multiple colleges in one click | Product Hunt Embed" style="width: 250px; height: 54px; position: fixed; bottom: 1em;
-     right:1em; z-index: 1" width="250px" height="54px" /></a>  
--->
-      
-      
+    </div>  
     <div class="container d-none d-lg-block">
       <div class="row">
         <div class="col-12 text-center mb-4 mt-5">
@@ -580,7 +564,9 @@ At Admission Buddy, we automated and streamlined the process of proofreading and
     
   </div> <!-- .site-wrap -->
 
-  <script type="javascript">amplitude.getInstance().logEvent('HELL0-CHANGE-THIS-BACK');</script>
+<!--  <script type="javascript">amplitude.getInstance().logEvent('HELL0-CHANGE-THIS-BACK');</script>-->
+      <script>amplitude.getInstance().logEvent('page-loaded');</script>
+      
   <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
