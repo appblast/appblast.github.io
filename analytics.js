@@ -86,9 +86,6 @@
         includeUtm: true,
         includeReferrer: true,
         });
-
-    var logEvent = function(eventName) {
-        amplitude.getInstance().logEvent(eventName);
-    }
+    
 
 //    <!-- ANALYTICS END -->  
