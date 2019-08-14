@@ -1,4 +1,21 @@
-//<!-- ANALYTICS START -->  
+//<!-- ANALYTICS START --> 
+
+//    <!-- Facebook Pixel Code -->
+    
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '467057150731163');
+      fbq('track', 'PageView');
+    
+
+//    <!-- End Facebook Pixel Code -->
+
 //Quora Pixel Code (JS Helper)
 
     !function(q,e,v,n,t,s){if(q.qp) return; n=q.qp=function(){n.qp?n.qp.apply(n,arguments):n.queue.push(arguments);}; n.queue=[];t=document.createElement(e);t.async=!0;t.src=v; s=document.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t,s);}(window, 'script', 'https://a.quora.com/qevents.js');
@@ -6,7 +23,7 @@
     qp('track', 'ViewContent');
     qp('track', 'Generic');
 
-//<noscript><img height="1" width="1" style="display:none" src="https://q.quora.com/_/ad/4158363ddeaa4b0abc8a7a0feab0c656/pixel?tag=ViewContent&noscript=1"/></noscript>
+
       
       
 //    <!-- Hotjar Tracking Code for https://edtech-startups.github.io/admissions/ -->
@@ -32,7 +49,7 @@
    
 
 //    <!-- Anti-flicker snippet (recommended)  -->
-    <style>.async-hide { opacity: 0 !important} </style>
+    
     
     (function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
     h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
@@ -71,19 +88,5 @@
         });
     
       
-//    <!-- Facebook Pixel Code -->
-    
-      !function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-      n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t,s)}(window, document,'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '467057150731163');
-      fbq('track', 'PageView');
-    
 
-//    <!-- End Facebook Pixel Code -->
 //    <!-- ANALYTICS END -->  
