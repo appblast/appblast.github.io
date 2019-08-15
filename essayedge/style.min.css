@@ -10738,8 +10738,7 @@ a:hover {
 
 @font-face {
     font-family: essayedge;
-    src: url(https://www.essayedge.com/wp-content/themes/EssayEdgeTheme/fonts/essayedge.eot);
-    src: url(https://www.essayedge.com/wp-content/themes/EssayEdgeTheme/fonts/essayedge.eot?#iefix) format("embedded-opentype"), url(https://www.essayedge.com/wp-content/themes/EssayEdgeTheme/fonts/essayedge.woff) format("woff"), url(https://www.essayedge.com/wp-content/themes/EssayEdgeTheme/fonts/essayedge.ttf) format("truetype"), url(https://www.essayedge.com/wp-content/themes/EssayEdgeTheme/fonts/essayedge.svg#essayedge) format("svg");
+    src: url(/essayedge.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
