@@ -197,7 +197,7 @@
         
   <script src="js/main.js"></script>
 
-    <script>amplitude.getInstance().logEvent('massive-thanks-received');</script>
+    <script>amplitude.getInstance().logEvent(window.location.href.split('?')[0]);</script>
     
   </body>
 </html>

@@ -554,7 +554,7 @@
                 });
             });
         </script>
-        <script>amplitude.getInstance().logEvent('page-loaded');</script>
+        <script>amplitude.getInstance().logEvent(window.location.href.split('?')[0]);</script>
 </body>
 
 </html>
