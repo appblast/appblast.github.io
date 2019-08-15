@@ -594,7 +594,8 @@ At Admission Buddy, we automated and streamlined the process of proofreading and
     
   </div> <!-- .site-wrap -->
 
-      <script>amplitude.getInstance().logEvent(window.location.href.split('?')[0]);</script>
+      <script>amplitude.getInstance().logEvent(window.location.href.split('?')[0].replace('https://', ''));</script>
+      
   <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="

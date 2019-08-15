@@ -554,7 +554,7 @@
                 });
             });
         </script>
-        <script>amplitude.getInstance().logEvent(window.location.href.split('?')[0]);</script>
+        <script>amplitude.getInstance().logEvent(window.location.href.split('?')[0].replace('https://', ''));</script>
 </body>
 
 </html>
