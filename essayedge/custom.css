@@ -117,14 +117,26 @@ html {
     
 .bg-bright {
   background: linear-gradient(to right, #7c40ff, #f1806b) !important; 
+}
 
-
-
+.bg-yellow {
+    background: #ffdb6d !important;
+    color: dimgray;
 }
 
 .white-text {
     color: white !important
 }
+
+
+.pros{
+    color: limegreen;
+}
+
+.cons{
+    color: #ee6248;
+}
+
 
 .fancybutt {
   -webkit-appearance: none;

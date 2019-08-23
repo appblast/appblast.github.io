@@ -20,13 +20,16 @@
     <link rel="alternate" type="application/rss+xml" title="EssayEdge &raquo; Comments Feed" href="https://www.essayedge.com/comments/feed/" />
     <link rel='stylesheet' id='google-fonts-css' href='https://fonts.googleapis.com/css?family=Cabin%3A400%2C500%2C600%2C700%7CRaleway%3A400%2C500%2C600%2C700&#038;ver=4.9.10' type='text/css' media='all' />
     
-    <link rel='stylesheet' id='wordpress-style-css' href='https://www.essayedge.com/wp-content/themes/EssayEdgeTheme/style.min.css?ver=437259503' type='text/css' media='all' />
+    
     
 <!--    <link rel="preload" href="https://www.essayedge.com/wp-content/themes/EssayEdgeTheme/style.min.css?ver=437259503" as="style" onload="this.rel='stylesheet'"  media='all'>-->
     
     <!--custom styles -->
-    <link rel='stylesheet' href='custom.css' type='text/css' />
+
     <script src="https://kit.fontawesome.com/46421073c0.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel='stylesheet' id='wordpress-style-css' href='https://www.essayedge.com/wp-content/themes/EssayEdgeTheme/style.min.css?ver=437259503' type='text/css' media='all' />
+    <link rel='stylesheet' href='custom.css' type='text/css' />
     <!--end of custom styles-->
     
     <script type='text/javascript' src='https://www.essayedge.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
@@ -171,8 +174,11 @@
             <div class="hero home deskop" style="background-image: url(back.jpg);">
                 <div class="top-circles"></div>
                 <div class="container">
-                    <h1 class="animate" data-animate="fadeInDown" data-delay=".5s" data-duration="0.5s">Admission Buddy applies to multiple <div><span id="typed"></span> on your behalf</div></h1>
-                    <div class="buttons animate" data-animate="bounceIn" data-delay="1s" data-duration="0.5s"><a href="#pricing" class="btn btn-primary btn-lg" onClick="gtag('event', 'Click', { 'event_category' : 'Buttons', 'event_label' : 'Buy Now on Homepage Hero' });">Get Started</a><a href="https://www.youtube.com/watch?v=9zPFOjsuuXA" class="btn btn-link btn-lg watch-video" target="_blank"><i class="fas fa-play"></i>Watch Video</a></div>
+                    <h1 class="animate" data-animate="fadeInDown" data-delay=".5s" data-duration="0.5s">Admission Buddy applies to multiple US <div><span id="typed"></span> on your behalf</div></h1>
+                    <div class="buttons animate" data-animate="bounceIn" data-delay="1s" data-duration="0.5s"><a href="#primary" class="btn btn-primary btn-lg" onClick="gtag('event', 'Click', { 'event_category' : 'Buttons', 'event_label' : 'Buy Now on Homepage Hero' });">Learn More</a>
+                        
+<!--             <a href="https://www.youtube.com/watch?v=9zPFOjsuuXA" class="btn btn-link btn-lg watch-video" target="_blank"><i class="fas fa-play"></i>Watch Video</a>-->
+                    </div>
                 </div>
                 <div class="the-wave">
                     <svg version="1.1" id="wave" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1400 55" xml:space="preserve">
@@ -224,7 +230,59 @@
                     <section class="promo">
                         <div class="container"><span>Get Started Today and Improve Your Chance of Admission</span><a href="#pricing" class="btn btn-light btn-lg" onClick="gtag('event', 'Click', { 'event_category' : 'Buttons', 'event_label' : 'Promo on Homepage' });">Get Started</a></div>
                     </section>
-                    <section id="how" class="how-it-works">
+
+                    
+                    <div class="site-section" id="compare">
+                      <div class="container">
+                       <div class="row justify-content-center">
+                           <h2 class="text-center mt-5"><big><big>Why us?</big></big></h2>
+                          </div>    
+                       <div class="row justify-content-center mt-5">
+                           
+                            <div class="col-md-6 text-center mb-5">
+                                <h3 class="mb-4"><big>Admission Buddy</big></h3>
+                                <div class="pros">
+                                <p><i class="fas fa-check"></i> Single application form</p>
+                                <p><i class="fas fa-check"></i> Hassle-free student visa application done for you</p>
+                                <p><i class="fas fa-check"></i> We choose the colleges that suit you best</p>
+                                <p><i class="fas fa-check"></i> We apply to multiple colleges on your behalf</p>
+                                <p><i class="fas fa-check"></i> Takes about 30 minutes total</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 text-center mb-5">
+                                <h3 class="mb-4"><big>Applying on your own</big></h3>
+                                <div class="cons">
+                                <p><i class="fas fa-times"></i> A new application form for every college</p>
+                                <p><i class="fas fa-times"></i> You have to get your own visa</p>
+                                <p><i class="fas fa-times"></i> You have to research colleges by yourself</p>
+                                <p><i class="fas fa-times"></i> You have to manually apply to all colleges by yourself</p>
+                                <p><i class="fas fa-times"></i> Takes at least 1 hour per college</p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+    <div class="site-section bg-bright" id="pricing">
+      <div class="container" data-aos="fade-up">
+        <div class="row mb-5">
+          <div class="col-12 mt-5 text-center">
+              <h2 class="section-title mb-3 mt-5 white-text"><big>Let's Get You Enrolled</big></h2>
+              <p class="white-text">Schedule your free initial consultation</p>
+          </div>
+        </div>
+          
+          <div class="row justify-content-center">
+              <div class="col-lg-7 mb-5 text-center">
+                  <a href="tel:13239772810"><button class="fancybutt mt-3 mb-3" style="background: white; color: #ee786e"><b>Call Us</b></button></a>
+                  <a href="https://m.me/admiss.buddy" target="_blank"><button class="fancybutt mt-3 mb-3" style="background: white; color: #ee786e"><b>Or Message Us</b></button></a>
+              </div>
+            </div>
+      </div>
+    </div>
+                    
+                    
+                                        <section id="how" class="how-it-works">
                         <div class="container">
                             <div class="sub-h2">How it Works</div>
                             <h3>Getting Started is Easy!</h3>
@@ -247,161 +305,12 @@
                                     <div class="animate fadeInLeft" data-animate="fadeInLeft" data-delay=".5s" data-duration="0.5s">
                                         <p><img src="https://www.essayedge.com/wp-content/themes/EssayEdgeTheme/images/win-icon.svg" alt="Get your critiqued essay back in as little as 24 hours" /></p>
                                         <h3>Win</h3>
-                                        <p>Get admitted to your dream college</p>
+                                        <p>Get admitted to your dream US college</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section>
-                    <section id="pricing" class="pricing">
-                        <div class="circles"></div>
-                        <div class="container">
-                            <div class="package wing">
-                                <div class="box-shadow"></div>
-                                <div>
-                                    <div class="sub-h2"></div>
-                                    <div class="price"><span class="from"></span><span class="amount">Starter</span></div>
-                                    <ul class="tabs-nav">
-<!--                                        <li class="tab-nav-link" data-target="#tab-proofreader-one">Features</li>-->
-<!--                                        <li class="tab-nav-link" data-target="#tab-proofreader-two">Pricing</li>-->
-                                    </ul>
-                                    <div class="tabs-main-content">
-                                        <div id="tab-proofreader-one" class="tab-content">
-                                            <ul>
-                                                <li><i class="fas fa-check yello-font"></i>&nbsp For those almost ready to get into college looking for a quick help</li>
-                                                <li><i class="fas fa-check yello-font"></i>&nbsp An expert will proofread your application for typos and grammatical errors you may have missed</li>
-                                                <li><i class="fas fa-check yello-font"></i>&nbsp Once done, the application will be submitted on your behalf to the college of your choice</li>
-                                                <li><i class="fas fa-check yello-font"></i>&nbsp 48-hour turnaround, 24-hour rush option</li>
-                                            </ul>
-                                        </div>
-<!--
-                                        <div id="tab-proofreader-two" class="tab-content">
-                                            <table>
-                                                <tbody>
-                                                    <tr>
-                                                        <td>College matching</td>
-                                                        <td>$49</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Each additional application</td>
-                                                        <td>$99</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>24-hour rush</td>
-                                                        <td>$59</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Admission interview coaching</td>
-                                                        <td>$199</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
--->
-                                    </div>
-                                </div><a href="../form-99-free.html" class="btn btn-light" onClick="gtag('event', 'Click', { 'event_category' : 'Buttons', 'event_label' : 'Proofreading Pricing Table Buy Now on Homepage' });">Start</a></div>
-                            <div class="package middle">
-                                <div class="box-shadow"></div>
-                                <div>
-                                    <div class="sub-h2"></div>
-                                    <div class="price"><span class="from"></span><span class="amount">Achiever</span></div>
-<!--
-                                    <ul class="tabs-nav">
-                                        <li class="tab-nav-link" data-target="#tab-standard-one">Features</li>
-                                        <li class="tab-nav-link" data-target="#tab-standard-two">Pricing</li>
-                                    </ul>
--->
-                                    <div class="tabs-main-content">
-                                        <div id="tab-standard-one" class="tab-content">
-                                            <ul>
-                                                <li><i class="fas fa-check yello-font"></i>&nbsp Includes college matching to help you find schools that fit you best</li>
-                                                <li><i class="fas fa-check yello-font"></i>&nbsp An expert will proofread your application for typos and grammatical errors you may have missed</li>
-                                                <li><i class="fas fa-check yello-font"></i>&nbsp Constructive critique around structure, content and tone of your application</li>
-                                                <li><i class="fas fa-check yello-font"></i>&nbsp Once done, the application will be submitted on your behalf to 5 colleges of your choice</li>
-                                                <li><i class="fas fa-check yello-font"></i>&nbsp 48-hour turnaround, 24-hour rush option</li>
-                                                <li><i class="fas fa-check yello-font"></i>&nbsp Option to choose your expert</li>
-                                            </ul>
-                                        </div>
-                                        <div id="tab-standard-two" class="tab-content">
-                                            <table>
-                                                <tbody>
-                                                    <tr>
-                                                        <td>Each additional application</td>
-                                                        <td>$99</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>24-hour rush</td>
-                                                        <td>$59</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Admission interview coaching</td>
-                                                        <td>$199</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div><a href="../form-499-free.html" class="btn btn-light" onClick="gtag('event', 'Click', { 'event_category' : 'Buttons', 'event_label' : 'Standard Pricing Table Buy Now on Homepage' });">Start</a></div>
-                            <div class="package wing">
-                                <div class="box-shadow"></div>
-                                <div>
-                                    <div class="sub-h2"></div>
-                                    <div class="price"><span class="from"></span><span class="amount">Ivy Leaguer</span></div>
-<!--
-                                    <ul class="tabs-nav">
-                                        <li class="tab-nav-link" data-target="#tab-premier-one">Features</li>
-                                        <li class="tab-nav-link" data-target="#tab-premier-two">Pricing</li>
-                                    </ul>
--->
-                                    <div class="tabs-main-content">
-                                        <div id="tab-premier-one" class="tab-content">
-                                            <ul>
-                                                <li><i class="fas fa-check yello-font"></i>&nbsp Most comprehensive - we&#039;ll guide you from initial brainstorm through submitted applications</li>
-                                                <li><i class="fas fa-check yello-font"></i>&nbsp Includes college matching to help you find schools that fit you best</li>
-                                                <li><i class="fas fa-check yello-font"></i>&nbsp One brainstorm session and two rounds of critique</li>
-                                                <li><i class="fas fa-check yello-font"></i>&nbsp Constructive critique around structure, content and tone of your application</li>
-                                                <li><i class="fas fa-check yello-font"></i>&nbsp Once done, the application will be submitted on your behalf to 10 colleges of your choice</li>
-                                                <li><i class="fas fa-check yello-font"></i>&nbsp Two phone conversations with your expert</li>
-                                                <li><i class="fas fa-check yello-font"></i>&nbsp 14 days of email support from your expert</li>
-                                                <li><i class="fas fa-check yello-font"></i>&nbsp 1 week turnaround time</li>
-                                            </ul>
-                                        </div>
-                                        <div id="tab-premier-two" class="tab-content">
-                                            <table>
-                                                <tbody>
-                                                    <tr>
-                                                        <td>Each additional application</td>
-                                                        <td>$99</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Admission interview coaching</td>
-                                                        <td>$199</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div><a href="../form-999-free.html" class="btn btn-light" onClick="gtag('event', 'Click', { 'event_category' : 'Buttons', 'event_label' : 'Premier Pricing Table Buy Now on Homepage' });">Start</a></div>
-                        </div>
-                    </section>
-                    
-    <div class="site-section bg-bright" id="cta">
-      <div class="container" data-aos="fade-up">
-        <div class="row mb-5">
-          <div class="col-12 mt-5 text-center">
-              <h2 class="section-title mb-3 mt-5 white-text"><big>Let's Get You Enrolled</big></h2>
-              <p class="white-text">Schedule your free 15-minute initial consultation</p>
-          </div>
-        </div>
-          
-          <div class="row justify-content-center">
-              <div class="col-lg-7 mb-5 text-center">
-                  <a href="tel: " target="_blank"><button class="fancybutt mt-3 mb-3" style="background: white; color: #ee786e"><b>Call Us</b></button></a>
-                  <a href="https://m.me/admiss.buddy" target="_blank"><button class="fancybutt mt-3 mb-3" style="background: white; color: #ee786e"><b>Or Message Us</b></button></a>
-              </div>
-            </div>
-      </div>
-    </div>
                     
                     <section id="testimonials" class="reviews">
                         <div class="container">
@@ -456,7 +365,7 @@
                                     <div><i class="fas fa-user-edit"></i>
                                         <h4 class="count-value">
     20+</h4></div>
-                                    <p class="count-text">PROFESSIONAL EDITORS</p>
+                                    <p class="count-text">ADMISSION EXPERTS</p>
                                 </div>
                                 <div class="counter col-6 col-md-3">
                                     <div><i class="fas fa-thumbs-up"></i>
@@ -555,7 +464,7 @@
                             <ul class="support">
                                 <li><i class="fas fa-envelope"></i><a href="mailto:hello@admission-buddy.com">Email us</a></li>
                                 <li><i class="fab fa-facebook-messenger"></i><a target="_blank" href="https://m.me/admiss.buddy">Chat with us</a></li>
-                                <li><i class="fas fa-phone"></i><a href="tel:415-763-6020">415-763-6020</a></li>
+                                <li><i class="fas fa-phone"></i><a href="tel:323-977-2810">323-977-2810</a></li>
                                 <ul>
                         </div>
                     </div>
