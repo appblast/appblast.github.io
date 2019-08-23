@@ -281,7 +281,7 @@
           <div class="row justify-content-center">
               <div class="col-lg-7 mb-5 text-center">
 <!--                  <a href="tel:13239772810"><button class="fancybutt mt-3 mb-3" style="background: white; color: #ee786e"><b>Call Us</b></button></a>-->
-                  <a href="https://m.me/admiss.buddy" target="_blank"><button class="whitebutt mb-5"><b>Message Us</b></button></a>
+                  <a href="https://m.me/admiss.buddy" target="_blank"><button class="whitebutt mb-5" onClick="amplitude.getInstance().logEvent('message-us', {'landing': compare});"><b>Message Us</b></button></a>
               </div>
             </div>
       </div>
@@ -470,7 +470,7 @@
                             <h2>Support</h2>
                             <ul class="support">
                                 <li><i class="fas fa-envelope"></i><a href="mailto:hello@admission-buddy.com">Email us</a></li>
-                                <li><i class="fab fa-facebook-messenger"></i><a target="_blank" href="https://m.me/admiss.buddy">Chat with us</a></li>
+                                <li><i class="fab fa-facebook-messenger"></i><a target="_blank" onClick="amplitude.getInstance().logEvent('message-us', {'landing': compare});" href="https://m.me/admiss.buddy">Chat with us</a></li>
                                 <li><i class="fas fa-phone"></i><a href="tel:323-977-2810">323-977-2810</a></li>
                                 <ul>
                         </div>
